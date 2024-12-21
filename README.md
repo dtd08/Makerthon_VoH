@@ -44,7 +44,7 @@
 
 ## 프로젝트 개요
 
-### 시연 영상
+### 시연 영상 (수정 필요)
 
 
 ### 프로젝트 이름: **BoH GPT (Beacon of Hearts)**
@@ -101,7 +101,7 @@
 
 ### 3. 접속
    - 로컬에서: `http://localhost:8504/`
-   - 배포된 서버: `https://your-deployed-site.com`
+   - 배포된 서버: `https://your-deployed-site.com` (수정 필요)
 
 ---
 
