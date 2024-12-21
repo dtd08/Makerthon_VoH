@@ -69,13 +69,13 @@
 
 2. **필요한 패키지 설치**
 
-| 패키지          | 명령어                                                     |
-|-----------------|------------------------------------------------------------|
-| LangChain       | ```bash   python -m pip install langchain ``` | ```bash   python -m pip install langchain-openai ``` | ```bash   python -m pip install langchain-community ``` |
-| OpenAI          | ```bash   python -m pip install openai ``` | 
-| 벡터 저장소 관련 | ```bash   python -m pip install faiss-cpu ``` |
-| 환경 변수 관리   | ```bash   python -m pip install python-dotenv ``` |
-| 의존성 패키지    | ```bash   python -m pip install numpy | python -m pip install typing ``` |
+    | 패키지          | 명령어                                                     |
+    |-----------------|------------------------------------------------------------|
+    | LangChain       | ```bash   python -m pip install langchain ``` | ```bash   python -m pip install langchain-openai ``` | ```bash   python -m pip install langchain-community ``` |
+    | OpenAI          | ```bash   python -m pip install openai ``` | 
+    | 벡터 저장소 관련 | ```bash   python -m pip install faiss-cpu ``` |
+    | 환경 변수 관리   | ```bash   python -m pip install python-dotenv ``` |
+    | 의존성 패키지    | ```bash   python -m pip install numpy | python -m pip install typing ``` |
 
 4. **환경 변수 설정**
    프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
