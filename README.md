@@ -1,4 +1,4 @@
-# 팀_마음의 소리 프로젝트 소개
+# AI Makerthon 팀 발표
 
 ![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) 
 ← 우리팀 마스코트
@@ -13,7 +13,7 @@
 
 ---
 
-## 팀 소개
+## 팀_마음의 소리 소개
 
 | 이름          | 역할           | GitHub Profile                                   |
 |---------------|----------------|-------------------------------------------------|
@@ -35,8 +35,7 @@
 2. **상담의 장벽 및 스트레스 완화** <br/>
   : '상담'이라는 사실에 과도한 집중이 되지 않게 친구같이 친근한 어휘로 접근하여 진입장벽을 낮추고 <br/>
   누구에게도 쉽게 털어놓지 못했던 마음 속에 있던 말을 털어놓으면서 스트레스를 완화하도록 유도합니다.
-3. **주요 가치** <br/>
-  : 공감, 
+3. **** <br/>
 
 ---
 
@@ -64,13 +63,29 @@
 ### 1. 환경 설정
 1. **프로젝트 클론**
    ```bash
-   git clone https://github.com/username/project.git
-   cd project
+   git clone https://github.com/dtd08/Makerthon_VoH/tree/main
+   cd Makerthon_VoH
    ```
 
 2. **필요한 패키지 설치**
    ```bash
-   npm install
+LangChain 관련 패키지
+python -m pip install langchain
+python -m pip install langchain-openai
+python -m pip install langchain-community
+
+OpenAI
+python -m pip install openai
+
+벡터 저장소 관련
+python -m pip install faiss-cpu
+
+환경 변수 관리
+python -m pip install python-dotenv
+
+의존성 패키지들
+python -m pip install numpy
+python -m pip install typing
    ```
 
 3. **환경 변수 설정**
@@ -83,7 +98,7 @@
 ### 2. 실행
 1. **개발 서버 실행**
    ```bash
-   npm run dev
+   streamlit run Front.py
    ```
 
 2. **프로덕션 빌드** (선택 사항)
@@ -93,7 +108,7 @@
    ```
 
 ### 3. 접속
-   - 로컬에서: `http://localhost:3000`
+   - 로컬에서: `http://localhost:8504/`
    - 배포된 서버: `https://your-deployed-site.com`
 
 ---
