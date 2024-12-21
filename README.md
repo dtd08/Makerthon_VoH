@@ -59,7 +59,7 @@
 - **백엔드 / AI**: LangChain, FAISS, OpenAI API, CharacterTextSplitter, TextLoader
 - **배포** : AWS
 
-![시스템 구조](https://via.placeholder.com/800x400)
+![시스템 구조]([https://via.placeholder.com/800x400](https://velog.velcdn.com/images/cataiden/post/ffa101d7-ff02-48c8-a5e2-156084e2dc66/image.png))
 
 ---
 
