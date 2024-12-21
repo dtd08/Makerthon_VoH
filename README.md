@@ -46,7 +46,7 @@
 
 ---
 
-## **BoH GPT (Beacon of Hearts)** 프로젝트 개요
+## 프로젝트: *BoH GPT (Beacon of Hearts)* 개요
 
 ### 주요 기능:
 1. **OpenAI 모델(GPT-4) 기반** <br/>
