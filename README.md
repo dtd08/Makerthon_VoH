@@ -1,4 +1,4 @@
-# AI Makerthon 팀 발표
+# 팀_마음의 소리 프로젝트 소개
 
 ![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) 
 ← 우리팀 마스코트
@@ -13,7 +13,7 @@
 
 ---
 
-## 팀_마음의 소리 소개
+## 팀 소개
 
 | 이름          | 역할           | GitHub Profile                                   |
 |---------------|----------------|-------------------------------------------------|
@@ -35,13 +35,13 @@
 2. **상담의 장벽 및 스트레스 완화** <br/>
   : '상담'이라는 사실에 과도한 집중이 되지 않게 친구같이 친근한 어휘로 접근하여 진입장벽을 낮추고 <br/>
   누구에게도 쉽게 털어놓지 못했던 마음 속에 있던 말을 털어놓으면서 스트레스를 완화하도록 유도합니다.
-3. **** <br/>
+3. **주요 가치** <br/>
+  : 공감, 경청, 지원, 접근성
 
 ---
 
 ## 프로젝트 개요
-
-### 프로젝트 이름: **Awesome Project**
+### 프로젝트 이름: **BoH GPT (Beacon of Hearts)**
 
 ### 주요 기능:
 - **기능 A**: 사용자가 쉽게 데이터를 입력 및 분석 가능.
@@ -68,7 +68,13 @@
    ```
 
 2. **필요한 패키지 설치**
-   ```bash
+   ```bash  
+| LangChain       | python -m pip install langchain | python -m pip install langchain-openai | python -m pip install langchain-community |
+| OpenAI          | python -m pip install openai | 
+| 벡터 저장소 관련 | python -m pip install faiss-cpu |
+| 환경 변수 관리   | python -m pip install python-dotenv |
+| 의존성 패키지    | python -m pip install numpy | python -m pip install typing |
+
 LangChain 관련 패키지
 python -m pip install langchain
 python -m pip install langchain-openai
@@ -86,7 +92,7 @@ python -m pip install python-dotenv
 의존성 패키지들
 python -m pip install numpy
 python -m pip install typing
-   ```
+ ```
 
 3. **환경 변수 설정**
    프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
