@@ -32,5 +32,77 @@
 1. **'상담'의 장벽** <br/>
   : 전문적인 선생님을 만나 자신의 속마음을 털어놓는 것은 생각보다 큰 부담입니다. <br/>
   실제로 주변 이야기를 들어보면 고민을 가진 친구들은 많지만 상담을 받았다는 친구는 생각보다 적습니다.
-3. **공감대 형성 및 스트레스 완화** <br/>
-  : 
+2. **상담의 장벽 및 스트레스 완화** <br/>
+  : '상담'이라는 사실에 과도한 집중이 되지 않게 친구같이 친근한 어휘로 접근하여 진입장벽을 낮추고 <br/>
+  누구에게도 쉽게 털어놓지 못했던 마음 속에 있던 말을 털어놓으면서 스트레스를 완화하도록 유도합니다.
+3. **** <br/>
+
+---
+
+## 프로젝트 개요
+
+### 프로젝트 이름: **Awesome Project**
+
+### 주요 기능:
+- **기능 A**: 사용자가 쉽게 데이터를 입력 및 분석 가능.
+- **기능 B**: 직관적인 시각화 제공.
+- **기능 C**: 다양한 플랫폼 지원.
+
+### 기술 스택:
+- **프론트엔드**: React, TypeScript
+- **백엔드**: Node.js, Express
+- **데이터베이스**: MongoDB
+- **배포**: AWS, Docker
+
+![시스템 구조](https://via.placeholder.com/800x400)
+
+---
+
+## 실행 방법
+
+### 1. 환경 설정
+1. **프로젝트 클론**
+   ```bash
+   git clone https://github.com/username/project.git
+   cd project
+   ```
+
+2. **필요한 패키지 설치**
+   ```bash
+   npm install
+   ```
+
+3. **환경 변수 설정**
+   프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
+   ```env
+   DB_URL=your_database_url
+   API_KEY=your_api_key
+   ```
+
+### 2. 실행
+1. **개발 서버 실행**
+   ```bash
+   npm run dev
+   ```
+
+2. **프로덕션 빌드** (선택 사항)
+   ```bash
+   npm run build
+   npm start
+   ```
+
+### 3. 접속
+   - 로컬에서: `http://localhost:3000`
+   - 배포된 서버: `https://your-deployed-site.com`
+
+---
+
+## 문의
+
+프로젝트에 대한 문의 사항은 아래로 연락해주세요:
+
+- **이메일**: example@example.com
+- **GitHub Issues**: [링크](https://github.com/username/project/issues)
+- **팀 웹사이트**: [https://team-website.com](https://team-website.com)
+
+---
