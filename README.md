@@ -74,8 +74,8 @@
 
 2. **필요한 패키지 설치**
 
-    | 패키지          | 명령어                                                     |
-    |-----------------|------------------------------------------------------------|
+    | 패키지          | 명령어                |                     |                |
+    |-----------------|----------------------|---------------------|-----------------|
     | LangChain       | ```python -m pip install langchain ``` | ```python -m pip install langchain-openai ``` | ```python -m pip install langchain-community ``` |
     | OpenAI          | ```python -m pip install openai ``` | 
     | 벡터 저장소 관련 | ```python -m pip install faiss-cpu ``` |
