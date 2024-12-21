@@ -97,7 +97,7 @@
 ### 2. 실행
 1. **개발 서버 실행**
    ```bash
-   streamlit run Front.py
+   streamlit run your_app.py
    ```
 
 2. **프로덕션 빌드** (선택 사항)
