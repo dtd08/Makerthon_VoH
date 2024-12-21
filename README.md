@@ -70,6 +70,7 @@
 2. **필요한 패키지 설치**
 
 | 패키지          | 명령어                                                     |
+|-----------------|------------------------------------------------------------|
 | LangChain       | ```bash   python -m pip install langchain ``` | ```bash   python -m pip install langchain-openai ``` | ```bash   python -m pip install langchain-community ``` |
 | OpenAI          | ```bash   python -m pip install openai ``` | 
 | 벡터 저장소 관련 | ```bash   python -m pip install faiss-cpu ``` |
