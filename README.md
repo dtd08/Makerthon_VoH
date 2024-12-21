@@ -76,7 +76,7 @@
 
     | 패키지          | 명령어                                                     |
     |-----------------|------------------------------------------------------------|
-    | LangChain       | ```bash   python -m pip install langchain ``` | ```bash   python -m pip install langchain-openai ``` | ```bash   python -m pip install langchain-community ``` |
+    | LangChain       | ```python -m pip install langchain ``` | ```bash   python -m pip install langchain-openai ``` | ```bash   python -m pip install langchain-community ``` |
     | OpenAI          | ```bash   python -m pip install openai ``` | 
     | 벡터 저장소 관련 | ```bash   python -m pip install faiss-cpu ``` |
     | 환경 변수 관리   | ```bash   python -m pip install python-dotenv ``` |
