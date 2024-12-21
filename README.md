@@ -50,6 +50,11 @@
 ### 프로젝트 이름: **BoH GPT (Beacon of Hearts)**
 
 ### 주요 기능: (수정 필요)
+1. **OpenAI 모델(GPT-4) 기반**: 미리 학습된 한국어 문장 이해 모델을 기반으로 상담에 적합한 성격 설정.
+2. **지식 베이스**: 상담 관련 데이터를 벡터 저장소로 활용하여 AI가 상담 관련 자료를 빠르게 참조하도록 함.
+3. **대화 인터페이스**: Streamlit을 사용하여 웹 애플리케이션을 구현하여 친구와 실시간으로 대화하는 듯한 인터페이스를 제공함. 
+
+### 핵심 장점
 - **쉬운 조작법**: 간단히 문장을 입력하는 것만으로 이용 가능.
 - **직관적인 UI/UX**: 직관적이고 이해하기 쉬운 UI/UX 제공.
 - **낮은 진입장벽**: 시간적/공간적 제약 해결 및 친근한 어투로 상담에 대한 거부감 완화.
@@ -107,6 +112,7 @@
 
 ## 문의
 
+- **데이터 출처**: [AI Hub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDataSe=extrldata&dataSetSn=267)
 - **이메일**: ddwt0826@gmail.com
 - **GitHub Issues**: [링크](https://github.com/dtd08/Makerthon_VoH/issues)
 ---
