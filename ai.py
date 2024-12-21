@@ -16,7 +16,7 @@ def init_knowledge_base():
     texts = text_splitter.split_documents(documents)
     
     # 벡터 저장소 생성
-    embeddings = OpenAIEmbeddings(openai_api_key="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")
+    embeddings = OpenAIEmbeddings(openai_api_key="api-key")
     vectorstore = FAISS.from_documents(texts, embeddings)
     
     return vectorstore
@@ -25,8 +25,7 @@ def init_knowledge_base():
 chat = ChatOpenAI(
     model="gpt-4",
     temperature=0.1,
-    openai_api_key="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"
-)
+    openai_api_key="api-key"
 
 # 프롬프트 템플릿 설정
 template = ChatPromptTemplate.from_messages([
