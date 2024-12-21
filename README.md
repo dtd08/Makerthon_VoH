@@ -44,9 +44,7 @@
 ### 프로젝트 이름: **BoH GPT (Beacon of Hearts)**
 
 ### 주요 기능:
-- **기능 A**: 사용자가 쉽게 데이터를 입력 및 분석 가능.
-- **기능 B**: 직관적인 시각화 제공.
-- **기능 C**: 다양한 플랫폼 지원.
+- **
 
 ### 기술 스택:
 - **프론트엔드**: React, TypeScript
@@ -75,7 +73,7 @@
     | OpenAI          | ```bash   python -m pip install openai ``` | 
     | 벡터 저장소 관련 | ```bash   python -m pip install faiss-cpu ``` |
     | 환경 변수 관리   | ```bash   python -m pip install python-dotenv ``` |
-    | 의존성 패키지    | ```bash   python -m pip install numpy | python -m pip install typing ``` |
+    | 의존성 패키지    | ```bash python -m pip install numpy ``` | ```bash   python -m pip install typing ``` |
 
 4. **환경 변수 설정**
    프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
