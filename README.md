@@ -55,7 +55,7 @@
 ### 기술 스택:
 - **프론트엔드**: Python streamlit
 - **백엔드**: LangChain, FAISS, OpenAI API, CharacterTextSplitter, TextLoader
-- **배포**: netlify
+- **배포** : AWS
 
 ![시스템 구조](https://via.placeholder.com/800x400)
 
