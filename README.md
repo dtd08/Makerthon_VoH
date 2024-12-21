@@ -1,7 +1,7 @@
 # 팀_마음의 소리 프로젝트 소개
 
 ![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) 
-← 우리팀 마스코트
+← 우리팀 마스코트 곽두철
 
 ## 목차
 - [팀 소개](#팀-소개)
