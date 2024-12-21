@@ -105,6 +105,5 @@
 ## 문의
 
 - **이메일**: ddwt0826@gmail.com
-- **GitHub Issues**: [링크](https://github.com/username/project/issues)
-
+- **GitHub Issues**: [링크](https://github.com/dtd08/Makerthon_VoH/issues)
 ---
