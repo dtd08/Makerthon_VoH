@@ -1,6 +1,7 @@
-# Makerthon 팀 발표
+# AI Makerthon 팀 발표
 
-![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) <- 우리팀 마스코트
+![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) 
+← 우리팀 마스코트
 
 ## 목차
 - [팀 소개](#팀-소개)
@@ -12,12 +13,22 @@
 
 ---
 
-## 팀 소개
-### 팀 이름: ***마음의 소리***
+## 팀_마음의 소리 소개
 
 | 이름          | 역할           | GitHub Profile                                   |
 |---------------|----------------|-------------------------------------------------|
 | 이서영       | 팀장 / 프로젝트 총괄  | [@dtd08](https://github.com/dtd08)   |
 | 양준석       | 부팀장 / 프론트엔드     | [@gogi102](https://github.com/gogi102) |
-| 김규민       | ai 엔지니어       | [@kornet79](https://github.com/kornet79)     |
-| 장연준       | QA / 데이터 수집 및 정리 | [@jangyeonjun](https://github.com/jangyeonjun) |
+| 김규민       | AI 엔지니어       | [@kornet79](https://github.com/kornet79)     |
+| 장연준       | QA / 데이터 수집 및 정리 | [@Jangyeonjun](https://github.com/Jangyeonjun) |
+
+---
+
+## 프로젝트 개발 동기
+
+  최근들어 사회적 문제로 대두된 청소년의 정신건강 문제, 특히 진로 및 대인관계에 대한 스트레스 문제를 완화를 위해 이 프로젝트를 기획하게 되었습니다.
+
+### 주요 동기
+1. **'상담'의 장벽**
+   : 전문적인 선생님을 만나 자신의 속마음을 털어놓는 것은 생각보다 큰 부담입니다. 실제로 주변의 이야기를 들어보면 고민이 
+    있는 친구들은 많지만 상담을 받았다는 친구는 생각보다 적습니다.
