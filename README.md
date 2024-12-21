@@ -104,10 +104,7 @@
 
 ## 문의
 
-프로젝트에 대한 문의 사항은 아래로 연락해주세요:
-
-- **이메일**: example@example.com
+- **이메일**: ddwt0826@gmail.com
 - **GitHub Issues**: [링크](https://github.com/username/project/issues)
-- **팀 웹사이트**: [https://team-website.com](https://team-website.com)
 
 ---
