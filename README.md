@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/130b7c76-6a28-4d7e-ba66-1c2abc288588
 # 팀_마음의 소리 프로젝트 소개
 
 ![bohlogo](https://github.com/user-attachments/assets/b8765edc-409f-4a77-a25a-cb0ce6883216) 
