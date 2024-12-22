@@ -59,13 +59,13 @@
 : 시각적 / 신체적인 조건 때문에 채팅하기 어려운 이들을 고려한 음성 대화 기능 추가.
 
 ### 핵심 장점
-- **쉬운 조작법**: 간단히 문장을 입력하는 것만으로 이용 가능.
+- **쉬운 조작법**: 간단히 문장을 입력하거나 말하는 것만으로 이용 가능.
 - **직관적인 UI/UX**: 직관적이고 이해하기 쉬운 UI/UX 제공.
 - **낮은 진입장벽**: 시간적/공간적 제약 해결 및 친근한 어투로 상담에 대한 거부감 완화.
 
 ### 기술 스택:
 - **프론트엔드**: Python streamlit
-- **백엔드 / AI**: LangChain, FAISS, OpenAI API, CharacterTextSplitter, TextLoader
+- **백엔드/AI**: LangChain, FAISS, OpenAI API, CharacterTextSplitter, TextLoader
 - **배포** : AWS
 
 ![시스템 구조](https://velog.velcdn.com/images/cataiden/post/ffa101d7-ff02-48c8-a5e2-156084e2dc66/image.png)
@@ -89,7 +89,7 @@
     | 환경 변수 관리   | ```python -m pip install python-dotenv ``` |
     | 의존성 패키지    | ```python -m pip install numpy ``` | ```python -m pip install typing ``` |
 
-4. **환경 변수 설정**
+3. **환경 변수 설정**
    프로젝트 루트에 `.env` 파일을 생성하고 아래 내용을 추가:
    ```env
    DB_URL=your_database_url
@@ -107,6 +107,10 @@
    npm run build
    npm start
    ```
+
+### 3. 접속
+- 클라이언트 접속
+
 ---
 
 ## 문의
