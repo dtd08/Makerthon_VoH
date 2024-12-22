@@ -74,7 +74,7 @@ st.markdown("""
         .message-container {
             display: flex;
             width: 100%;
-            justify-content: flex-end;  /* 사용자 메시지용 기본 정렬 */
+            justify-content: flex-end;  /* 사용자 메시지용 기��� 정렬 */
         }
         .message-container.ai {
             justify-content: flex-start;  /* AI 메시지는 왼쪽 정렬 */
@@ -123,33 +123,34 @@ else:
 # 세션 상태에서 대화 메시지를 저장할 리스트 초기화
 if 'messages' not in st.session_state:
     st.session_state.messages = []
-
-if not st.session_state.welcomed:
+    # 초기 환영 메시지 추가
     welcome_message = {
         "role": "assistant",
         "content": "안녕 나는 꽉두철이라고 해! 오늘은 어떤 하루를 보냈어? 네가 속상했던 일이나 즐거웠던 일, 행복하거나 화가났던 일들을 내가 모두 들어줄게!",
         "time": datetime.now().strftime("%H:%M")
     }
     st.session_state.messages.append(welcome_message)
-    st.session_state.welcomed = True
 
 if user_input:
-    # 사용자의 메시지를 messages 리스트에 추가 (시간 정보 포함)
+    # 사용자의 메시지를 messages 리스트에 추가
     st.session_state.messages.append({
         "role": "user", 
         "content": user_input,
         "time": datetime.now().strftime("%H:%M")
     })
-
-    # AI의 응답 생성 - ai.py의 함수 호출
+    
+    # AI의 응답 생성
     chatbot_response = ai.get_ai_response(user_input)
-
-    # 챗봇의 응답을 messages 리스트에 추가 (시간 정보 포함)
+    
+    # 챗봇의 응답을 messages 리스트에 추가
     st.session_state.messages.append({
         "role": "chatbot", 
         "content": chatbot_response,
         "time": datetime.now().strftime("%H:%M")
     })
+
+    # 입력 필드 초기화
+    st.empty()
 
 # 대화 내용 표시
 st.markdown('<div class="chat-container">', unsafe_allow_html=True)
@@ -199,7 +200,6 @@ def text_to_speech(text, message_id):
         st.error(f"TTS 오류: {str(e)}")
 
 for message in st.session_state.messages:
-
     if message["role"] == "user":
         st.markdown(f'''
             <div class="message-container">
@@ -212,34 +212,29 @@ for message in st.session_state.messages:
     else:
         col1, col2 = st.columns([0.8, 10])
         with col1:
-            st.markdown('''
-                <style>
-                    [data-testid="column"] {
-                        padding-top: 1rem;  # 상단 여백 조절
-                    }
-                </style>
-            ''', unsafe_allow_html=True)
             st.image("assets/-removebg-preview_1.png", width=50)
         with col2:
-            if method:
+            if method:  # 음성 대화 모드
                 st.markdown(f'''
                     <div class="message-container ai">
                         <div class="message ai-message">
-                        {message["content"]}
+                            {message["content"]}
                             <div class="message-time">{message.get("time", "")}</div>
                         </div>
                     </div>
                 ''', unsafe_allow_html=True)
-                # 메시지의 고유 ID 생성 (내용과 시간을 조합)
+                
+                # 메시지의 고유 ID 생성
                 message_id = f"{message['content']}_{message.get('time', '')}"
                 
-                # TTS 실행
-                text_to_speech(message["content"], message_id)
-            else :
+                # TTS 실행 (새로운 메시지만)
+                if message == st.session_state.messages[-1]:
+                    text_to_speech(message["content"], message_id)
+            else:  # 텍스트 대화 모드
                 st.markdown(f'''
                     <div class="message-container ai">
                         <div class="message ai-message">
-                        {message["content"]}
+                            {message["content"]}
                             <div class="message-time">{message.get("time", "")}</div>
                         </div>
                     </div>
